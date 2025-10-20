@@ -253,12 +253,14 @@ body {
             }
         }
         .banner{
+            position: relative; 
             height: 500px;
             background: #e7e7e7;
             display: flex;
             justify-content: center;
             align-items: flex-start;
             margin-top: 150px;
+            overflow: hidden;
         }
         .banner img{
             width: 3000px;
